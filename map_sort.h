@@ -278,7 +278,7 @@ void MapSort<Type, kNumIntervals>
 }
 
 template<typename Type>
-void SortKeys(Type *data, size_t num_elems, int num_threads = -1) {
+void Sort(Type *data, size_t num_elems, int num_threads = -1) {
   MapSort<Type> map_sort;
   map_sort.Init(num_elems, num_threads);
   map_sort.Sort(data, num_elems, num_threads);

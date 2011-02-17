@@ -31,6 +31,12 @@ measure.cc で 2 千万要素の int 配列のソートの時間を測ります�
   std::sort(1): 1.736658 sec
   std::sort(2): 1.734755 sec
 
+課題
+----
+* 比較オブジェクトをとれるようにする
+
+* Software Managed Buffer を並列 Radix Sort と同様に導入すれば性能は上がる？
+
 参考文献
 --------
-* M. Edahiro and Y. Yamashita, "Map Sort: A Scalable Sorting Algorithm for Multi-Core Processors," IPSJ Report (SLDM), No. 27 (Mar., 2007), pp. 19--24, 2007.
+* M.Edahiro and Y.Yamashita, "Map Sort: A Scalable Sorting Algorithm for Multi-Core Processors," IPSJ Report (SLDM), No. 27 (Mar., 2007), pp. 19--24, 2007.
